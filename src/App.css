@@ -2,28 +2,48 @@
   height: 100vh;
   width: 100vw;
   transition: background-color 1s ease-in;
+  
 }
+
 
 .app__header, 
 .app__main {
-  width: 100%;
+  
   display: flex;
+  width:100%;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(74, 74, 105)
+ 
+  
 }
+
+
 
 
 /*  Search bar */
 
+.app__header {
+   background-color: #759DD6;
+   padding: 34px 50px;
+   align-items: left;
+   position: static;
+  
+ 
+}
+.find-Weather {
+   background-color: rgb(109, 106, 236);
+   
 
-
+}
 /* Current weather */
 
-
+.app__main {
+   background-color:#9CCDF2;
+   height: 100%;
+}
 
 
