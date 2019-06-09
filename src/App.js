@@ -10,8 +10,20 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <header className="app__header" />
-        <main className="app__main">"Najla Soltana"</main>
+        <header className="app__header">
+          <input/> 
+          <button>  Find Weather </button> 
+         </header>
+
+        <main className="app__main">
+
+
+          <input/>
+          Temperature <button> </button>
+          humidity <button></button>              pressure <button></button>
+
+        </main>
+
       </div>
     );
   }
