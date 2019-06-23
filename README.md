@@ -17,8 +17,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser, a
 ### Aim
 
 You will be connecting to a real-time weather API to make a weather app that looks like this:
-
-![final design](src/img/instructions/final-design.png)
+src/img/instructions/final-design.png
+![final design]()
 
 ![designgif](src/img/instructions/weatherappdemo.gif)
 
